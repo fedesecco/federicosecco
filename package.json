@@ -1,0 +1,17 @@
+{
+  "name": "federicosecco",
+  "version": "1.2.0",
+  "description": "My personal website - copied and edited from a Brad Traversy project",
+  "main": "index.js",
+  "homepage": "https://federicosecco.it",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Federico Secco",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
