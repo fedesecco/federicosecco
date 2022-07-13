@@ -422,8 +422,9 @@ main#home h1 {
   padding-left: 6rem;
 }
 
-.contact-footer a.padding-2 {
-  padding-left: 5rem;
+.contact-footer a.margins {
+  margin-left: 1.2rem;
+  margin-right: 1.25rem;
 }
 
 .contact-footer a:hover {
@@ -463,6 +464,15 @@ main#home h1 {
 
 .iconify{
   font-size: 1.8rem;
+}
+
+.icon-footer{
+  font-size: 1.1rem;
+}
+
+.cv{
+  text-align: center;
+  margin: 3rem auto auto auto;
 }
 
 @media screen and (min-width: 1171px) {
