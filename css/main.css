@@ -479,6 +479,16 @@ main#home h1 {
   width: 120px;
 }
 
+.test-grid{
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+}
+
+.experience-level {
+  font-size: 1rem;
+  margin-top: 0.6rem;
+}
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
