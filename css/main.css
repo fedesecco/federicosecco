@@ -328,6 +328,9 @@ main#home h1 {
 .projects img.project-img {
   width: 100%;
   border: 3px #fff solid;
+  max-height: 270px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .projects img.project-img:hover {

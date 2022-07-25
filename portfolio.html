@@ -114,8 +114,11 @@
       <!--Progetto 2: Sito personale-->
       <div class="item">
         <a href="https://federicosecco.it" target="blank">
-          <img class="project-img" src="img/projects/project2.jpg" alt="Project">
+          <img class="project-img" id="project-1" src="" alt="Project">
         </a>
+        <script>
+          document.getElementById("project-1").src="https://api.miniature.io/?token="+process.env.MINIATURE_IO_API+"&url=federicosecco.it";
+        </script>
         <a href="https://federicosecco.it" target="blank" class="btn-light">
           Personal website - 2018
           <i class="fas fa-external-link-square-alt"></i>
