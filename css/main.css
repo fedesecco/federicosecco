@@ -450,14 +450,14 @@ main#home h1 {
   font-size: 0.7rem;
 }
 
-.portrait-img{
+.portrait-img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   border: solid 3px #14e27b;
 }
 
-.index-link{
+.index-link {
   transition: all 0.5s ease-out;
 }
 
@@ -465,7 +465,7 @@ main#home h1 {
   color: #14e27b;
 }
 
-.iconify{
+.iconify {
   font-size: 1.8rem;
 }
 
@@ -473,20 +473,20 @@ main#home h1 {
   font-size: 1.5rem;
 }
 
-.icon-footer{
+.icon-footer {
   font-size: 1.1rem;
 }
 
-.cv{
+.cv {
   text-align: center;
   margin: 3rem auto auto auto;
 }
 
-.skill-icon{
+.skill-icon {
   width: 120px;
 }
 
-.test-grid{
+.test-grid {
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
@@ -494,6 +494,10 @@ main#home h1 {
 .experience-level {
   font-size: 1rem;
   margin-top: 0.6rem;
+}
+
+.certificate-img {
+  height: 35vh;
 }
 
 @media screen and (min-width: 1171px) {
@@ -542,7 +546,7 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
 
-.portrait {
+  .portrait {
     background: url("../img/portrait_small.jpg");
     width: 150px;
     height: 150px;
